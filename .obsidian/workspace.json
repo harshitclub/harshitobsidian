@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "480e6a8e2cffaa27",
+    "type": "split",
+    "children": [
+      {
+        "id": "d44eee16264f3e87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52cf6ea01c093ed1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0968f377e39f8e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "355007ede4d7b81b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23101dab7cb41fff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ac6a8b4fddc6cb16",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "09a4f613a04a9501",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.5
+  },
+  "right": {
+    "id": "d15079b30824853b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdc5a8f78771bde3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b007edad38680d14",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "e1d715af4f55be4f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ab871c6d37be20f2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0a12bd3c31f63929",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "abf0d34dbef7ac95",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "5150d7ed5e48cb67",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "23101dab7cb41fff",
+  "lastOpenFiles": [
+    "Meleebay/Development Plan.md",
+    "DBMS/Database Fundamentals/ACID Properties.md",
+    "Meleebay/Introduction.md",
+    "Untitled.base",
+    "Flutter",
+    "Sudhanshu Tracker.md",
+    "DBMS/Database Fundamentals/Transactions & Isolation Levels.md",
+    "Meleebay",
+    "DBMS/Database Fundamentals/OLTP vs OLAP Systems.md",
+    "DBMS/Database Fundamentals/Difference between SQL vs NoSQL.md",
+    "2026-02-23.md",
+    "DBMS/Untitled.canvas",
+    "DBMS/Database Fundamentals/Schema Design Basics.md",
+    "DBMS/Database Fundamentals/PACELC Theorem.md",
+    "DBMS/Database Fundamentals/CAP Theorem.md",
+    "Demo Sessions/DSA Demo Session.md",
+    "DBMS/Database Fundamentals",
+    "DBMS",
+    "DSA/Data Structures/Stack/What is Stack.md",
+    "Demo Sessions",
+    "DSA/Data Structures/Arrays/What is Array.md",
+    "DSA/Data Structures/Stack",
+    "DSA/Data Structures/Types of Data Structures.md",
+    "DSA/Data Structures/Definition of Data Structures.md",
+    "DSA/Data Structures/Arrays",
+    "DSA/Data Structures/Untitled.md",
+    "DSA/Algorithms/Types of algorithms.md",
+    "DSA/Algorithms/Definition of Algorithms.md",
+    "DSA/Algorithms",
+    "DSA/Data Structures",
+    "Example Testing.md",
+    "hello.md",
+    "2026-01-02.md",
+    "Untitled.canvas",
+    "Welcome.md"
+  ]
+}
