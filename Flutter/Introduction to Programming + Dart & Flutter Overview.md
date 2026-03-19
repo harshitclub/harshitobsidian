@@ -27,7 +27,6 @@ Low-level languages are closest to the hardware. They provide minimal abstractio
 - Embedded systems
 - Firmware
 - Hardware-level programming
-
 ## 1.1.2 Assembly Language
 
 ### Definition
@@ -49,7 +48,6 @@ A human-readable representation of machine instructions using mnemonics.
 - Operating system kernels
 - Device drivers
 - Performance-critical code
-
 ## 1.2 High-Level Languages
 
 ### Definition
@@ -75,7 +73,6 @@ Languages that abstract hardware details and allow developers to focus on logic.
 ### Limitations
 - Less control over hardware
 - Performance overhead (in some cases)
-
 ### Real-World Use
 - Web development
 - Application development
@@ -101,12 +98,10 @@ Languages designed for specific problem domains, focusing on **_what to do_** ra
 ### Limitations
 - Limited flexibility outside domain
 - Not suitable for general-purpose programming
-
 ### Real-World Use
 - Data analytics
 - Scientific research
 - Database operations
-
 ## 1.4 Evolution Summary
 
 |Generation|Focus|Tradeoff|
