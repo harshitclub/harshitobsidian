@@ -68,7 +68,6 @@ Languages that abstract hardware details and allow developers to focus on logic.
 `int a = 5;`  
 `int b = 3;`  
 `int sum = a + b;`
-
 ### Advantages
 - Easy to read and write
 - Portable across platforms
@@ -86,8 +85,7 @@ Languages that abstract hardware details and allow developers to focus on logic.
 
 ### Definition
 
-Languages designed for specific problem domains, focusing on _what to do_ rather than _how to do it_.
-
+Languages designed for specific problem domains, focusing on **_what to do_** rather than _**how to do it_**.
 ### Examples
 
 #### SQL (Database Querying)
@@ -117,18 +115,15 @@ Languages designed for specific problem domains, focusing on _what to do_ rather
 |High-Level|Productivity|Less control|
 |DSLs|Domain efficiency|Limited scope|
 
-
 # 2. Why Google Created Dart
 
 ## 2.1 Background Problem
 
 Google faced major challenges while building large-scale applications:
-
 - JavaScript limitations:
     - Single-threaded execution model
     - Difficult to maintain large codebases
     - Performance bottlenecks in complex apps
-
 ## 2.2 Objectives Behind Dart
 
 Google designed Dart to address these issues:
