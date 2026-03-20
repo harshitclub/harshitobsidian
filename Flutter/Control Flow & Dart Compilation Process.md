@@ -286,7 +286,7 @@ Dart → Kernel → JS Compiler → JavaScript
 
 ## Alternative (Built-in):
 
-String reversed = input.split('').reversed.join();
+`String reversed = input.split('').reversed.join();`
 
 # 4.3 Calculator with Menu (Switch + Loop)
 
