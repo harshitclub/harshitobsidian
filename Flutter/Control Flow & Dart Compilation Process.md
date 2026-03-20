@@ -8,40 +8,48 @@ Control flow determines **how your program executes step-by-step**.
 
 ### Syntax:
 
-`if (condition) {`  
-  `// code`  
-`}`
+```
+if (condition) {  
+// code  
+}
+```
 ### Example:
 
-`int age = 18;`  
+```
+int age = 18;  
   
-`if (age >= 18) {`  
-  `print("You are eligible to vote");`  
-`}`
+if (age >= 18) {  
+print("You are eligible to vote");  
+}
+```
 
 ## 1.1.2 `if-else`
 
-`int age = 16;`  
+```
+int age = 16;  
   
-`if (age >= 18) {`  
-  `print("Adult");`  
-`} else {`  
-  `print("Minor");`  
-`}`
+if (age >= 18) {  
+print("Adult");  
+} else {  
+print("Minor");  
+}
+```
 
 ## 1.1.3 `else if`
 
 Used for multiple conditions:
 
-`int marks = 75;  
-`if (marks >= 90) {`  
-  `print("Grade A");`  
-`} else if (marks >= 70) {`  
-  `print("Grade B");`  
-`} else {`  
-  `print("Grade C");`  
-`}`
-
+```
+int marks = 75;  
+  
+if (marks >= 90) {  
+print("Grade A");  
+} else if (marks >= 70) {  
+print("Grade B");  
+} else {  
+print("Grade C");  
+}
+```
 ## 1.1.4 Deep Insight
 > Conditions are evaluated top-down.  
 > First true condition stops further checking.
@@ -51,34 +59,38 @@ Used for multiple conditions:
 Used when comparing one variable against multiple values.
 ### Syntax:
 
-`switch (value) {`  
-  `case 1:`  
-    `// code`  
-    `break;`  
-  `case 2:`  
-    `// code`  
-    `break;`  
-  `default:`  
-    `// fallback`  
-`}`
+```
+switch (value) {  
+case 1:  
+// code  
+break;  
+case 2:  
+// code  
+break;  
+default:  
+// fallback  
+}
+```
 
 ### Example:
 
-`int day = 3;`  
+```
+int day = 3;  
   
-`switch (day) {`  
-  `case 1:`  
-    `print("Monday");`  
-    `break;`  
-  `case 2:`  
-    `print("Tuesday");`  
-    `break;`  
-  `case 3:`  
-    `print("Wednesday");`  
-    `break;`  
-  `default:`  
-    `print("Invalid day");`  
-`}`
+switch (day) {  
+case 1:  
+print("Monday");  
+break;  
+case 2:  
+print("Tuesday");  
+break;  
+case 3:  
+print("Wednesday");  
+break;  
+default:  
+print("Invalid day");  
+}
+```
 
 ### Important Notes:
 
@@ -96,15 +108,19 @@ Loops are used to **repeat execution**.
 
 ### Syntax:
 
-`for (initialization; condition; update) {`  
-  `// code`  
-`}`
+```
+for (initialization; condition; update) {  
+// code  
+}
+```
 
 ### Example:
 
-`for (int i = 1; i <= 5; i++) {`  
-  `print(i);`  
-`}`
+```
+for (int i = 1; i <= 5; i++) {  
+print(i);  
+}
+```
 
 ### Use Case:
 - Known number of iterations
@@ -113,18 +129,22 @@ Loops are used to **repeat execution**.
 
 ### Syntax:
 
-`while (condition) {`  
-  `// code`  
-`}`
+```
+while (condition) {  
+// code  
+}
+```
 
 ### Example:
 
-`int i = 1;`  
+```
+int i = 1;  
   
-`while (i <= 5) {`  
-  `print(i);`  
-  `i++;`  
-`}`
+while (i <= 5) {  
+print(i);  
+i++;  
+}
+```
 
 ### Use Case:
 - Unknown number of iterations
@@ -133,18 +153,22 @@ Loops are used to **repeat execution**.
 
 ### Syntax:
 
-`do {`  
-  `// code`  
-`} while (condition);`
+```
+do {  
+// code  
+} while (condition);
+```
 
 ### Example:
 
-`int i = 1;`  
+```
+int i = 1;  
   
-`do {`  
-  `print(i);`  
-  `i++;`  
-`} while (i <= 5);`
+do {  
+print(i);  
+i++;  
+} while (i <= 5);
+```
 
 ### Key Difference:
 - Runs **at least once**, even if condition is false
@@ -158,9 +182,11 @@ Dart Code → Kernel IR → (JIT or AOT) → Native Code / JavaScript
 
 ### Step 1: Dart Source Code
 
-`void main() {`  
-  `print("Hello");`  
-`}`
+```
+void main() {  
+print("Hello");  
+}
+```
 
 ### Step 2: Kernel IR (Intermediate Representation)
 
@@ -232,31 +258,33 @@ Dart → Kernel → JS Compiler → JavaScript
 
 ### Code:
 
-`import 'dart:io';`  
+```
+import 'dart:io';  
   
-`void main() {`  
-  `print("Enter a number:");`  
-  `int num = int.parse(stdin.readLineSync()!);`  
+void main() {  
+print("Enter a number:");  
+int num = int.parse(stdin.readLineSync()!);  
   
-  `bool isPrime = true;`  
+bool isPrime = true;  
   
-  `if (num <= 1) {`  
-    `isPrime = false;`  
-  `} else {`  
-    `for (int i = 2; i <= num ~/ 2; i++) {`  
-      `if (num % i == 0) {`  
-        `isPrime = false;`  
-        `break;`  
-      `}`  
-    `}`  
-  `}`  
+if (num <= 1) {  
+isPrime = false;  
+} else {  
+for (int i = 2; i <= num ~/ 2; i++) {  
+if (num % i == 0) {  
+isPrime = false;  
+break;  
+}  
+}  
+}  
   
-  `if (isPrime) {`  
-    `print("$num is a Prime Number");`  
-  `} else {`  
-    `print("$num is NOT a Prime Number");`  
-  `}`  
-`}`
+if (isPrime) {  
+print("$num is a Prime Number");  
+} else {  
+print("$num is NOT a Prime Number");  
+}  
+}
+```
 
 ## Insight:
 - Optimization: check till `num/2` (or √num for better performance)
@@ -266,23 +294,24 @@ Dart → Kernel → JS Compiler → JavaScript
 ## Logic:
 
 - Traverse string backward
-
 ### Code:
 
-`import 'dart:io';`  
+```
+import 'dart:io';  
   
-`void main() {`  
-  `print("Enter a string:");`  
-  `String input = stdin.readLineSync()!;`  
+void main() {  
+print("Enter a string:");  
+String input = stdin.readLineSync()!;  
   
-  `String reversed = "";`  
+String reversed = "";  
   
-  `for (int i = input.length - 1; i >= 0; i--) {`  
-    `reversed += input[i];`  
-  `}`  
+for (int i = input.length - 1; i >= 0; i--) {  
+reversed += input[i];  
+}  
   
-  `print("Reversed string: $reversed");`  
-`}`
+print("Reversed string: $reversed");  
+}
+```
 
 ## Alternative (Built-in):
 
@@ -296,50 +325,51 @@ Dart → Kernel → JS Compiler → JavaScript
 - Uses switch + loop
 
 ### Code:
-
-`import 'dart:io';`  
+```
+import 'dart:io';  
   
-`void main() {`  
-  `while (true) {`  
-    `print("\n--- Calculator ---");`  
-    `print("1. Add");`  
-    `print("2. Subtract");`  
-    `print("3. Multiply");`  
-    `print("4. Divide");`  
-    `print("5. Exit");`  
+void main() {  
+while (true) {  
+print("\n--- Calculator ---");  
+print("1. Add");  
+print("2. Subtract");  
+print("3. Multiply");  
+print("4. Divide");  
+print("5. Exit");  
   
-    `int choice = int.parse(stdin.readLineSync()!);`  
+int choice = int.parse(stdin.readLineSync()!);  
   
-    `if (choice == 5) {`  
-      `print("Exiting...");`  
-      `break;`  
-    `}`  
+if (choice == 5) {  
+print("Exiting...");  
+break;  
+}  
   
-    `print("Enter first number:");`  
-    `double a = double.parse(stdin.readLineSync()!);`  
+print("Enter first number:");  
+double a = double.parse(stdin.readLineSync()!);  
   
-    `print("Enter second number:");`  
-    `double b = double.parse(stdin.readLineSync()!);`  
+print("Enter second number:");  
+double b = double.parse(stdin.readLineSync()!);  
   
-    `switch (choice) {`  
-      `case 1:`  
-        `print("Result: ${a + b}");`  
-        `break;`  
-      `case 2:`  
-        `print("Result: ${a - b}");`  
-        `break;`  
-      `case 3:`  
-        `print("Result: ${a * b}");`  
-        `break;`  
-      `case 4:`  
-        `if (b != 0) {`  
-          `print("Result: ${a / b}");`  
-        `} else {`  
-          `print("Cannot divide by zero");`  
-        `}`  
-        `break;`  
-      `default:`  
-        `print("Invalid choice");`  
-    `}`  
-  `}`  
-`}`
+switch (choice) {  
+case 1:  
+print("Result: ${a + b}");  
+break;  
+case 2:  
+print("Result: ${a - b}");  
+break;  
+case 3:  
+print("Result: ${a * b}");  
+break;  
+case 4:  
+if (b != 0) {  
+print("Result: ${a / b}");  
+} else {  
+print("Cannot divide by zero");  
+}  
+break;  
+default:  
+print("Invalid choice");  
+}  
+}  
+}
+```

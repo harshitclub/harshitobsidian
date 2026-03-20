@@ -4,9 +4,11 @@
 
 Every Dart program starts with a **main function**:
 
-`void main() {`  
-  `print("Hello, Dart!");`  
-`}`
+```
+if (condition) {  
+// code  
+}
+```
 ### Key Points:
 
 - `main()` is the **entry point**
@@ -17,20 +19,26 @@ Every Dart program starts with a **main function**:
 
 - Each statement ends with `;`
 
-`int a = 10;`  
-`print(a);`
+```
+int a = 10;  
+print(a);
+```
 
 ## 1.3 Comments
 
-`// Single-line comment`  
+```
+// Single-line comment  
   
-`/*`  
- `Multi-line comment`  
-`*/`
+/*  
+Multi-line comment  
+*/
+```
 
 ## 1.4 Printing Output
 
-`print("Hello World");`
+```
+print("Hello World");
+```
 
 - `print()` is used for console output
 - Automatically adds a newline
@@ -39,9 +47,11 @@ Every Dart program starts with a **main function**:
 
 Defined using `{ }`
 
-`if (true) {`  
-  `print("Inside block");`  
-`}`
+```
+if (true) {  
+print("Inside block");  
+}
+```
 
 ## 1.6 Naming Rules
 
@@ -60,22 +70,27 @@ A variable is a container that stores data in memory.
 
 ## 2.2.1 `var` (Type Inference)
 
-`var name = "Harshit";`  
-`var age = 23;`
+```
+var name = "Harshit";  
+var age = 23;
+```
 
 ### Behavior:
 - Dart automatically detects type
 - Type becomes fixed after first assignment
-    
 
-`var a = 10;`  
-`a = 20;      // ✅ allowed`  
-`// a = "text"; ❌ error`
+```
+var a = 10;  
+a = 20; // ✅ allowed  
+// a = "text"; ❌ error
+```
 
 ## 2.2.2 Explicit Type
 
-`String name = "Harshit";`  
-`int age = 23;`
+```
+String name = "Harshit";  
+int age = 23;
+```
 ### Advantage:
 - More readable
 - Better for large codebases
@@ -89,7 +104,9 @@ A variable is a container that stores data in memory.
 
 ## 2.2.4 `const` (Compile-Time Constant)
 
-`const pi = 3.14;`
+```
+const pi = 3.14;
+```
 ### Key Points:
 - Value must be known at compile time
 - More optimized than `final`
@@ -113,42 +130,56 @@ Dart is **strongly typed** and **type-safe**.
 
 ## 3.1 int
 
-`int age = 23;`
+```
+int age = 23;
+```
 
 - Whole numbers
 - No decimals
 
 ## 3.2 double
 
-`double price = 99.99;`
+```
+double price = 99.99;
+```
 
 - Decimal numbers
 
 ## 3.3 String
 
-`String name = "Harshit";`
+```
+String name = "Harshit";
+```
 
 - Text data
 - Can use single or double quotes
 
 ## 3.4 bool
 
-`bool isLoggedIn = true;`
+```
+bool isLoggedIn = true;
+```
 
 - Only `true` or `false`
 
 ## 3.5 List (Array-like structure)
 
-`List<int> numbers = [1, 2, 3];`
+```
+List<int> numbers = [1, 2, 3];
+```
 
 ### Access elements:
 
-`print(numbers[0]); // 1`
+```
+print(numbers[0]); // 1
+```
 
 ## 3.6 Dynamic
 
-`dynamic value = 10;`  
-`value = "Hello";`
+```
+dynamic value = 10;  
+value = "Hello";
+```
 ### Insight:
 - Avoid using `dynamic` unless necessary
 - Breaks type safety
@@ -157,14 +188,18 @@ Dart is **strongly typed** and **type-safe**.
 
 ## 4.1 Basic Interpolation
 
-`String name = "Harshit";`  
-`print("Hello $name");`
+```
+String name = "Harshit";  
+print("Hello $name");
+```
 
 ## 4.2 Expressions
 
-`int a = 5;`  
-`int b = 3;`  
-`print("Sum is ${a + b}");`
+```
+int a = 5;  
+int b = 3;  
+print("Sum is ${a + b}");
+```
 
 ## 4.3 Why It Matters
 
@@ -175,24 +210,30 @@ Dart is **strongly typed** and **type-safe**.
 
 ## 5.1 Output
 
-`print("Hello World");`
+```
+print("Hello World");
+```
 
 ## 5.2 Input from User (Console)
 
 To take input, we use:
 
-`import 'dart:io';`
+```
+import 'dart:io';
+```
 
 ## 5.3 Example: Basic Input
 
-`import 'dart:io';`  
+```
+import 'dart:io';  
   
-`void main() {`  
-  `print("Enter your name:");`  
-  `String? name = stdin.readLineSync();`  
+void main() {  
+print("Enter your name:");  
+String? name = stdin.readLineSync();  
   
-  `print("Hello $name");`  
-`}`
+print("Hello $name");  
+}
+```
 
 ### Key Concepts:
 
@@ -202,7 +243,9 @@ To take input, we use:
 
 ## 5.4 Handling Null Safety
 
-`String name = stdin.readLineSync() ?? "Guest";`
+```
+String name = stdin.readLineSync() ?? "Guest";
+```
 
 - If input is null → default value used
 
@@ -210,10 +253,14 @@ To take input, we use:
 
 ### String → int
 
-`int age = int.parse(stdin.readLineSync()!);`
+```
+int age = int.parse(stdin.readLineSync()!);
+```
 ### String → double
 
-`double price = double.parse(stdin.readLineSync()!);`
+```
+double price = double.parse(stdin.readLineSync()!);
+```
 
 ### Important Note:
 - `!` means: “I am sure it's not null”
@@ -223,47 +270,53 @@ To take input, we use:
 
 ## Example 1: Variables Demo
 
-`void main() {`  
-  `var name = "Harshit";`  
-  `int age = 23;`  
-  `double height = 5.9;`  
-  `bool isDeveloper = true;`  
+```
+void main() {  
+var name = "Harshit";  
+int age = 23;  
+double height = 5.9;  
+bool isDeveloper = true;  
   
-  `print("Name: $name");`  
-  `print("Age: $age");`  
-  `print("Height: $height");`  
-  `print("Developer: $isDeveloper");`  
-`}`
+print("Name: $name");  
+print("Age: $age");  
+print("Height: $height");  
+print("Developer: $isDeveloper");  
+}
+```
 
 ## Example 2: List Example
 
-`void main() {`  
-  `List<String> fruits = ["Apple", "Banana", "Mango"];`  
+```
+void main() {  
+List<String> fruits = ["Apple", "Banana", "Mango"];  
   
-  `print("First fruit: ${fruits[0]}");`  
-`}`
+print("First fruit: ${fruits[0]}");  
+}
+```
 
 # 7. Basic CLI App (Input + Output)
 
 ## Example: User Info App
 
-`import 'dart:io';`  
+```
+import 'dart:io';  
   
-`void main() {`  
-  `print("Enter your name:");`  
-  `String name = stdin.readLineSync() ?? "Unknown";`  
+void main() {  
+print("Enter your name:");  
+String name = stdin.readLineSync() ?? "Unknown";  
   
-  `print("Enter your age:");`  
-  `int age = int.parse(stdin.readLineSync()!);`  
+print("Enter your age:");  
+int age = int.parse(stdin.readLineSync()!);  
   
-  `print("Enter your city:");`  
-  `String city = stdin.readLineSync() ?? "Unknown";`  
+print("Enter your city:");  
+String city = stdin.readLineSync() ?? "Unknown";  
   
-  `print("\n--- User Info ---");`  
-  `print("Name: $name");`  
-  `print("Age: $age");`  
-  `print("City: $city");`  
-`}`
+print("\n--- User Info ---");  
+print("Name: $name");  
+print("Age: $age");  
+print("City: $city");  
+}
+```
 
 ## What This Teaches
 
@@ -276,24 +329,34 @@ To take input, we use:
 
 ## Mistake 1: Forgetting Null Safety
 
-`String name = stdin.readLineSync(); // ❌ error`
+```
+String name = stdin.readLineSync(); // ❌ error
+```
 
 Correct:
 
-`String? name = stdin.readLineSync();`
+```
+String? name = stdin.readLineSync();
+```
 
 ## Mistake 2: Wrong Type Conversion
 
-`int age = stdin.readLineSync(); // ❌`
+```
+int age = stdin.readLineSync(); // ❌
+```
 
 Correct:
 
-`int age = int.parse(stdin.readLineSync()!);`
+```
+int age = int.parse(stdin.readLineSync()!);
+```
 
 ## Mistake 3: Overusing `dynamic`
 
 Avoid:
-`dynamic data = "Hello";`
+```
+dynamic data = "Hello";
+```
 
 # 9. Deep Understanding (What Most People Miss)
 
@@ -310,4 +373,6 @@ Avoid:
 ## 9.3 Variables Are Immutable by Default (Best Practice)
 
 Prefer:
-`final name = "Harshit";`
+```
+final name = "Harshit";
+```
