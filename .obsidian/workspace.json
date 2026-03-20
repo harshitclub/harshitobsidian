@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
+                "file": "Flutter/Dart Installation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Programming + Dart & Flutter Overview"
+              "title": "Dart Installation"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "2fb364ab411b4173",
   "lastOpenFiles": [
-    "README.md",
     "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
+    "Flutter/Dart Installation.md",
+    "README.md",
     "Meleebay/Development Plan.md",
     "DBMS/Database Fundamentals/ACID Properties.md",
     "Meleebay/Introduction.md",
