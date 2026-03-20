@@ -1,7 +1,6 @@
 # 1. History of Programming Languages
 
 Programming languages evolved to solve one core problem:
-
 > Making computers easier to control while increasing developer productivity.
 ## 1.1 Low-Level Languages
 
@@ -33,8 +32,10 @@ Low-level languages are closest to the hardware. They provide minimal abstractio
 
 A human-readable representation of machine instructions using mnemonics.
 ### Example
-`MOV AX, 5`  
-`ADD AX, 3`
+```
+MOV AX, 5
+ADD AX, 3
+```
 ### Characteristics
 - Requires an assembler to convert into machine code
 - Hardware-specific
@@ -60,12 +61,16 @@ Languages that abstract hardware details and allow developers to focus on logic.
 ### Example Comparison
 
 #### Assembly
-`MOV AX, 5`  
-`ADD AX, 3`
+```
+MOV AX, 5
+ADD AX, 3
+```
 #### C
-`int a = 5;`  
-`int b = 3;`  
-`int sum = a + b;`
+```
+int a = 5;  
+int b = 3;  
+int sum = a + b;
+```
 ### Advantages
 - Easy to read and write
 - Portable across platforms
@@ -86,7 +91,9 @@ Languages designed for specific problem domains, focusing on **_what to do_** ra
 ### Examples
 
 #### SQL (Database Querying)
-`SELECT * FROM users WHERE age > 18;`
+```
+SELECT * FROM users WHERE age > 18;
+```
 #### MATLAB (Scientific Computing)
 - Used for simulations, numerical analysis
 ### Characteristics
@@ -145,7 +152,6 @@ Google designed Dart to address these issues:
 ## 2.4 Key Insight
 
 Dart is not just a language—it is designed as:
-
 > A production-grade language optimized for UI frameworks like Flutter.
 
 # 3. What is Flutter and Why It Became Popular
@@ -161,7 +167,9 @@ In Flutter:
 - Everything is composable
 ### Example
 
-`Text("Hello World")`
+```
+Text("Hello World")
+```
 
 Widgets represent:
 - Layout (Row, Column)
@@ -254,5 +262,4 @@ To understand the bigger picture:
 ## Key Takeaway
 
 Modern development is moving toward:
-
 > Single codebase systems that maximize productivity without sacrificing performance.
