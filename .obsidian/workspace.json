@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Dart Installation.md",
+                "file": "Flutter/Dart Basics – Data Types, Variables & Input-Output.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dart Installation"
+              "title": "Dart Basics – Data Types, Variables & Input-Output"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "2fb364ab411b4173",
   "lastOpenFiles": [
-    "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
     "Flutter/Dart Installation.md",
+    "Flutter/Dart Basics – Data Types, Variables & Input-Output.md",
+    "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
     "README.md",
     "Meleebay/Development Plan.md",
     "DBMS/Database Fundamentals/ACID Properties.md",
@@ -229,7 +230,6 @@
     "Example Testing.md",
     "hello.md",
     "2026-01-02.md",
-    "Untitled.canvas",
-    "Welcome.md"
+    "Untitled.canvas"
   ]
 }
