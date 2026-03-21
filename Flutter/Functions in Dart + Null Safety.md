@@ -109,7 +109,6 @@ void greet({required String name, int? age}) {
   print("Name: $name, Age: $age");  
 }
 ```
-
 ### Call
 
 ```
@@ -132,19 +131,16 @@ void greet({String name = "Guest"}) {
 ```
 ### Insight
 > Named parameters are preferred in large-scale applications for clarity.
-
 # 3. Arrow Functions (Fat Arrow)
 
 ## 3.1 Definition
 
 Short syntax for single-expression functions.
-
 ### Syntax
 
 ```
 returnType functionName(parameters) => expression;
 ```
-
 ### Example
 
 ```
