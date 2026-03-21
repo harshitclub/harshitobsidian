@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Functions in Dart + Null Safety.md",
+                "file": "Flutter/Collections in Dart (List, Set, Map).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functions in Dart + Null Safety"
+              "title": "Collections in Dart (List, Set, Map)"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "db6e567e4606fbfd",
   "lastOpenFiles": [
-    "Flutter/Control Flow & Dart Compilation Process.md",
     "Flutter/Functions in Dart + Null Safety.md",
+    "Flutter/Collections in Dart (List, Set, Map).md",
+    "Flutter/Control Flow & Dart Compilation Process.md",
     "Flutter/Dart Installation.md",
     "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
     "Flutter/Dart Basics – Data Types, Variables & Input-Output.md",
@@ -229,7 +230,6 @@
     "DSA/Algorithms/Definition of Algorithms.md",
     "DSA/Algorithms",
     "DSA/Data Structures",
-    "Example Testing.md",
     "Untitled.canvas"
   ]
 }
