@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Collections in Dart (List, Set, Map).md",
+                "file": "Flutter/Testing the Minds.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Collections in Dart (List, Set, Map)"
+              "title": "Testing the Minds"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "db6e567e4606fbfd",
   "lastOpenFiles": [
-    "Flutter/Functions in Dart + Null Safety.md",
     "Flutter/Collections in Dart (List, Set, Map).md",
+    "Flutter/Testing the Minds.md",
+    "Flutter/Functions in Dart + Null Safety.md",
     "Flutter/Control Flow & Dart Compilation Process.md",
     "Flutter/Dart Installation.md",
     "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
@@ -227,7 +228,6 @@
     "DSA/Data Structures/Arrays",
     "DSA/Data Structures/Untitled.md",
     "DSA/Algorithms/Types of algorithms.md",
-    "DSA/Algorithms/Definition of Algorithms.md",
     "DSA/Algorithms",
     "DSA/Data Structures",
     "Untitled.canvas"
