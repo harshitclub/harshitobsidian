@@ -7,6 +7,5 @@
 ## Learning Mindset
 1. How do you learn something new in programming?
 2. What do you do when you get stuck?
-3. What do you do when you get stuck?
-4. What is something new you learned recently?
-5. Why do you want to learn programming?
+3. What is something new you learned recently?
+4. Why do you want to learn programming?

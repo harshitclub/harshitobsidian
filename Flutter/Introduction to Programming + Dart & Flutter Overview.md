@@ -159,7 +159,6 @@ Dart is not just a language—it is designed as:
 ## 3.1 Definition
 
 Flutter is a UI toolkit developed by Google that allows developers to build cross-platform applications using a single codebase.
-
 ## 3.2 Core Concept: Everything is a Widget
 
 In Flutter:
@@ -207,7 +206,6 @@ Widgets represent:
 |Development Speed|Faster|Slower|
 |Performance|Near-native|Fully native|
 
-
 ## 4.2 Flutter vs Web (React)
 
 |Feature|Flutter|React|
@@ -216,7 +214,6 @@ Widgets represent:
 |Performance|High|Depends on optimization|
 |Ecosystem|Growing|Mature|
 |Learning Curve|Moderate|Easier initially|
-
 
 ## 4.3 Strategic Perspective
 - Native Android → Best for platform-specific optimization
