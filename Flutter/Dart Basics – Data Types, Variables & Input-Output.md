@@ -5,8 +5,8 @@
 Every Dart program starts with a **main function**:
 
 ```
-if (condition) {  
-// code  
+void main(){
+ print("Hello World!")
 }
 ```
 ### Key Points:
