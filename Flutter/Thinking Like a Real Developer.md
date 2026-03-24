@@ -116,6 +116,27 @@ Car car1 = Car("Red", 100);
 
 - Constructor initializes object at creation
 - Cleaner and more efficient
+
+```
+class User {  
+String name;  
+int age;  
+  
+User(this.name, this.age);  
+  
+void login() {  
+print("$name logged in");  
+}  
+}  
+// question - take input from users
+void main() {  
+User user1 = User("Aman", 22);  
+User user2 = User("Ravi", 25);  
+  
+user1.login();  
+user2.login();  
+}
+```
 # 4. Encapsulation (Protecting Data)
 
 ## Real Problem
