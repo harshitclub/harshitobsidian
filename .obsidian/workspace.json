@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "625c001388fd2977",
+        "id": "3d3b98a3e1063553",
         "type": "tabs",
         "children": [
           {
-            "id": "db6e567e4606fbfd",
+            "id": "7788a54313134915",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "d15079b30824853b",
@@ -177,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db6e567e4606fbfd",
+  "active": "5150d7ed5e48cb67",
   "lastOpenFiles": [
     "Flutter/Dart Installation.md",
     "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
