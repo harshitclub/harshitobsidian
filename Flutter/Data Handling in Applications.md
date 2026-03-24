@@ -109,7 +109,6 @@ user["email"] = "aman@gmail.com";
 ### Purpose
 
 Used to process multiple elements efficiently.
-
 ### For Loop
 
 ```
@@ -117,7 +116,6 @@ for (int i = 0; i < 5; i++) {
   print(i);  
 }
 ```
-
 ### For-in Loop
 
 ```
@@ -127,7 +125,6 @@ for (var user in users) {
   print(user);  
 }
 ```
-
 ### Iterating Map
 
 ```
