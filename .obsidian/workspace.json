@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Thinking Like a Real Developer.md",
+                "file": "Flutter/Understanding the Real Opportunity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thinking Like a Real Developer"
+              "title": "Understanding the Real Opportunity"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Real-World Applications, and Career Scope.md",
     "Flutter/Thinking Like a Real Developer.md",
+    "Flutter/Understanding the Real Opportunity.md",
+    "Flutter/Real-World Applications, and Career Scope.md",
     "Flutter/Data Handling in Applications.md",
     "Flutter/Control Flow & Dart Compilation Process.md",
     "Flutter/Collections in Dart (List, Set, Map).md",
@@ -226,7 +227,6 @@
     "Demo Sessions",
     "DSA/Data Structures/Arrays/What is Array.md",
     "DSA/Data Structures/Stack",
-    "DSA/Data Structures/Types of Data Structures.md",
     "DSA/Data Structures/Arrays",
     "DSA/Algorithms",
     "DSA/Data Structures",
