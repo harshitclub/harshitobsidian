@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Data Handling in Applications.md",
+                "file": "Flutter/Thinking Like a Real Developer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Handling in Applications"
+              "title": "Thinking Like a Real Developer"
             }
           }
         ]
@@ -193,14 +193,15 @@
   },
   "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Collections in Dart (List, Set, Map).md",
+    "Flutter/Control Flow & Dart Compilation Process.md",
+    "Flutter/Thinking Like a Real Developer.md",
     "Flutter/Data Handling in Applications.md",
+    "Flutter/Collections in Dart (List, Set, Map).md",
     "Flutter/Dart Basics – Data Types, Variables & Input-Output.md",
     "Flutter/Dart Installation.md",
     "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
     "Flutter/Testing the Minds.md",
     "Flutter/Functions in Dart + Null Safety.md",
-    "Flutter/Control Flow & Dart Compilation Process.md",
     "README.md",
     "Meleebay/Development Plan.md",
     "DBMS/Database Fundamentals/ACID Properties.md",
@@ -227,7 +228,6 @@
     "DSA/Data Structures/Types of Data Structures.md",
     "DSA/Data Structures/Definition of Data Structures.md",
     "DSA/Data Structures/Arrays",
-    "DSA/Data Structures/Untitled.md",
     "DSA/Algorithms",
     "DSA/Data Structures",
     "Untitled.canvas"
