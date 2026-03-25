@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Understanding the Real Opportunity.md",
+                "file": "Flutter/Thinking Like a Real Developer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Understanding the Real Opportunity"
+              "title": "Thinking Like a Real Developer"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "d15079b30824853b",
@@ -193,10 +194,10 @@
   },
   "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Thinking Like a Real Developer.md",
-    "Flutter/Understanding the Real Opportunity.md",
-    "Flutter/Real-World Applications, and Career Scope.md",
     "Flutter/Data Handling in Applications.md",
+    "Flutter/Real-World Applications, and Career Scope.md",
+    "Flutter/Understanding the Real Opportunity.md",
+    "Flutter/Thinking Like a Real Developer.md",
     "Flutter/Control Flow & Dart Compilation Process.md",
     "Flutter/Collections in Dart (List, Set, Map).md",
     "Flutter/Dart Basics – Data Types, Variables & Input-Output.md",

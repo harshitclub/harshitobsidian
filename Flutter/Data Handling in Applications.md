@@ -150,6 +150,10 @@ void greet() {
   print("Hello");  
 }
 ```
+
+# Make a calculator using functions:
+  # Take input from users num1 and num2
+  # Make features like - add, subtract, divide and multiply
 ### Function with Parameters
 
 ```
@@ -193,7 +197,7 @@ void printUsers() {
   for (var user in users) {  
     print("Name: $user, Age: ${userData[user]?["age"]}");  
   }  
-}  
+}
   
 void main() {  
   addUser("Aman", 22);  
