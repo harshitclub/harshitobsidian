@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
+                "file": "Flutter/Core Flutter/Stateless Screens/Two Starter Stateless Screens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Starter Stateless Screen"
+              "title": "Two Starter Stateless Screens"
             }
           }
         ]
@@ -191,10 +191,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "23101dab7cb41fff",
+  "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Core Flutter/Stateless Screens/Basic Stateless Screen.md",
     "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
+    "Flutter/Core Flutter/Stateless Screens/Two Starter Stateless Screens.md",
+    "Flutter/Core Flutter/Stateless Screens/Basic Stateless Screen.md",
     "Flutter/Core Flutter/Stateless UI in Flutter.md",
     "Flutter/Core Flutter/Stateless Screens",
     "Flutter/Core Flutter/Flutter Setup Guide.md",
@@ -224,7 +225,6 @@
     "2026-02-23.md",
     "DBMS/Untitled.canvas",
     "DBMS/Database Fundamentals/Schema Design Basics.md",
-    "DBMS/Database Fundamentals/PACELC Theorem.md",
     "DBMS/Database Fundamentals",
     "DBMS",
     "Demo Sessions",
