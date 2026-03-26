@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Core Flutter/Stateless UI in Flutter.md",
+                "file": "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stateless UI in Flutter"
+              "title": "Starter Stateless Screen"
             }
           }
         ]
@@ -191,10 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7788a54313134915",
+  "active": "23101dab7cb41fff",
   "lastOpenFiles": [
-    "Flutter/Core Flutter/Flutter Setup Guide.md",
+    "Flutter/Core Flutter/Stateless Screens/Basic Stateless Screen.md",
+    "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
     "Flutter/Core Flutter/Stateless UI in Flutter.md",
+    "Flutter/Core Flutter/Stateless Screens",
+    "Flutter/Core Flutter/Flutter Setup Guide.md",
     "Flutter/Thinking Like a Real Developer.md",
     "Flutter/Core Flutter",
     "Flutter/Data Handling in Applications.md",
@@ -222,14 +225,11 @@
     "DBMS/Untitled.canvas",
     "DBMS/Database Fundamentals/Schema Design Basics.md",
     "DBMS/Database Fundamentals/PACELC Theorem.md",
-    "DBMS/Database Fundamentals/CAP Theorem.md",
-    "Demo Sessions/DSA Demo Session.md",
     "DBMS/Database Fundamentals",
     "DBMS",
     "Demo Sessions",
     "DSA/Data Structures/Stack",
     "DSA/Data Structures/Arrays",
-    "DSA/Algorithms",
     "Untitled.canvas"
   ]
 }
