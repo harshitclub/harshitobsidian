@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Core Flutter/Flutter Setup Guide.md",
+                "file": "Flutter/Core Flutter/Stateless UI in Flutter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flutter Setup Guide"
+              "title": "Stateless UI in Flutter"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Thinking Like a Real Developer.md",
     "Flutter/Core Flutter/Flutter Setup Guide.md",
+    "Flutter/Core Flutter/Stateless UI in Flutter.md",
+    "Flutter/Thinking Like a Real Developer.md",
     "Flutter/Core Flutter",
     "Flutter/Data Handling in Applications.md",
     "Flutter/Real-World Applications, and Career Scope.md",
@@ -225,7 +226,6 @@
     "Demo Sessions/DSA Demo Session.md",
     "DBMS/Database Fundamentals",
     "DBMS",
-    "DSA/Data Structures/Stack/What is Stack.md",
     "Demo Sessions",
     "DSA/Data Structures/Stack",
     "DSA/Data Structures/Arrays",
