@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Core Flutter/Stateless Screens/Two Starter Stateless Screens.md",
+                "file": "Flutter/Core Flutter/Changing App Name & Icon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Two Starter Stateless Screens"
+              "title": "Changing App Name & Icon"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
+    "Flutter/Core Flutter/Handling Images in Flutter.md",
+    "Flutter/Core Flutter/Changing App Name & Icon.md",
+    "Flutter/Untitled.md",
     "Flutter/Core Flutter/Stateless Screens/Two Starter Stateless Screens.md",
+    "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
     "Flutter/Core Flutter/Stateless Screens/Basic Stateless Screen.md",
     "Flutter/Core Flutter/Stateless UI in Flutter.md",
     "Flutter/Core Flutter/Stateless Screens",
@@ -221,10 +224,7 @@
     "DBMS/Database Fundamentals/Transactions & Isolation Levels.md",
     "Meleebay",
     "DBMS/Database Fundamentals/OLTP vs OLAP Systems.md",
-    "DBMS/Database Fundamentals/Difference between SQL vs NoSQL.md",
-    "2026-02-23.md",
     "DBMS/Untitled.canvas",
-    "DBMS/Database Fundamentals/Schema Design Basics.md",
     "DBMS/Database Fundamentals",
     "DBMS",
     "Demo Sessions",
