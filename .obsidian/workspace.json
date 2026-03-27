@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Core Flutter/Changing App Name & Icon.md",
+                "file": "Flutter/Core Flutter/Navigation In Flutter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Changing App Name & Icon"
+              "title": "Navigation In Flutter"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 259.5069465637207
   },
   "right": {
     "id": "d15079b30824853b",
@@ -193,13 +193,14 @@
   },
   "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Core Flutter/Handling Images in Flutter.md",
+    "Flutter/Core Flutter/Stateless Screens/Basic Stateless Screen.md",
+    "Flutter/Core Flutter/Navigation In Flutter.md",
+    "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
+    "Flutter/Core Flutter/Stateless UI in Flutter.md",
     "Flutter/Core Flutter/Changing App Name & Icon.md",
+    "Flutter/Core Flutter/Handling Images in Flutter.md",
     "Flutter/Untitled.md",
     "Flutter/Core Flutter/Stateless Screens/Two Starter Stateless Screens.md",
-    "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
-    "Flutter/Core Flutter/Stateless Screens/Basic Stateless Screen.md",
-    "Flutter/Core Flutter/Stateless UI in Flutter.md",
     "Flutter/Core Flutter/Stateless Screens",
     "Flutter/Core Flutter/Flutter Setup Guide.md",
     "Flutter/Thinking Like a Real Developer.md",
@@ -223,7 +224,6 @@
     "Sudhanshu Tracker.md",
     "DBMS/Database Fundamentals/Transactions & Isolation Levels.md",
     "Meleebay",
-    "DBMS/Database Fundamentals/OLTP vs OLAP Systems.md",
     "DBMS/Untitled.canvas",
     "DBMS/Database Fundamentals",
     "DBMS",
