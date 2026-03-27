@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Core Flutter/Navigation In Flutter.md",
+                "file": "Flutter/Core Flutter/Widgets Guide (Stateless).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Navigation In Flutter"
+              "title": "Widgets Guide (Stateless)"
             }
           }
         ]
@@ -193,10 +193,11 @@
   },
   "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Core Flutter/Stateless Screens/Basic Stateless Screen.md",
-    "Flutter/Core Flutter/Navigation In Flutter.md",
-    "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
     "Flutter/Core Flutter/Stateless UI in Flutter.md",
+    "Flutter/Core Flutter/Widgets Guide (Stateless).md",
+    "Flutter/Core Flutter/Navigation In Flutter.md",
+    "Flutter/Core Flutter/Stateless Screens/Basic Stateless Screen.md",
+    "Flutter/Core Flutter/Stateless Screens/Starter Stateless Screen.md",
     "Flutter/Core Flutter/Changing App Name & Icon.md",
     "Flutter/Core Flutter/Handling Images in Flutter.md",
     "Flutter/Untitled.md",
@@ -222,7 +223,6 @@
     "Untitled.base",
     "Flutter",
     "Sudhanshu Tracker.md",
-    "DBMS/Database Fundamentals/Transactions & Isolation Levels.md",
     "Meleebay",
     "DBMS/Untitled.canvas",
     "DBMS/Database Fundamentals",
