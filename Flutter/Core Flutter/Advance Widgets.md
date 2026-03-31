@@ -9,7 +9,7 @@ It handles 3 states:
 - Loading
 - Success
 - Error
-## Full Example (Copy → Paste → Run)
+## Full Example
 
 ```
 import 'package:flutter/material.dart';  
