@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Core Flutter/Widgets Guide - Final.md",
+                "file": "Flutter/Core Flutter/Advance Widgets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Widgets Guide - Final"
+              "title": "Advance Widgets"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "7788a54313134915",
   "lastOpenFiles": [
-    "Flutter/Real Engineering Territory.md",
     "Flutter/Core Flutter/Widgets Guide - Final.md",
+    "Flutter/Core Flutter/Advance Widgets.md",
+    "Flutter/Real Engineering Territory.md",
     "Flutter/Assessment.md",
     "Flutter/Core Flutter/Grabbing Data from Input Fields.md",
     "Flutter/Core Flutter/Navigation In Flutter.md",
@@ -220,7 +221,6 @@
     "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
     "Flutter/Testing the Minds.md",
     "Flutter/Functions in Dart + Null Safety.md",
-    "README.md",
     "Untitled.base",
     "Flutter",
     "Meleebay",
