@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/JS Fundamentals to Distributed Node.js System Design.md",
+                "file": "Web/JavaScript/BACKEND ENGINEERING ROADMAP (V1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS Fundamentals to Distributed Node.js System Design"
+              "title": "BACKEND ENGINEERING ROADMAP (V1)"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "ac2173884f18e274",
   "lastOpenFiles": [
-    "Demo Sessions/Full Stack Development.md",
     "Web/JavaScript/JS Fundamentals to Distributed Node.js System Design.md",
+    "Web/JavaScript/BACKEND ENGINEERING ROADMAP (V1).md",
+    "Demo Sessions/Full Stack Development.md",
     "Web/JavaScript",
     "Web",
     "Flutter/Real Engineering Territory.md",
@@ -222,7 +223,6 @@
     "Flutter/Collections in Dart (List, Set, Map).md",
     "Flutter/Dart Basics – Data Types, Variables & Input-Output.md",
     "Flutter/Dart Installation.md",
-    "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
     "Untitled.base",
     "Flutter",
     "Meleebay",
