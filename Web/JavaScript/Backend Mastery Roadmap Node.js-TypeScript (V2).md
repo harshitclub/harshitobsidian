@@ -59,22 +59,18 @@ System design is what separates seniors from mid-level engineers. You must under
 To build a world-class portfolio, your projects must solve hard engineering problems, not just CRUD.
 
 - **Level 1: The Idempotent Payment Gateway (REST + Postgres)**
-    
     - _Concept:_ Build a mock Stripe API.
     - _Teaches:_ ACID transactions, idempotency (ensuring a user isn't double-charged if their network drops), webhook payload signature verification, and row-level locking in SQL (`SELECT ... FOR UPDATE`).
         
 - **Level 2: Distributed Job Processing Engine (Node + Redis + BullMQ)**
-    
     - _Concept:_ A video processing API. Users upload a dummy large file; it gets compressed into 3 different resolutions asynchronously.
     - _Teaches:_ Streams, message queues, worker nodes, handling failed jobs, DLQs, and progress reporting via WebSockets.
         
 - **Level 3: Scaled E-Learning Platform (Microservices)**
-    
     - _Concept:_ Take an application like a mini LMS and architect it to handle 10,000 concurrent students taking a quiz simultaneously.
     - _Teaches:_ Redis caching for high-read quiz data, database connection pooling to prevent crashing under load, write-behind caching for saving quiz answers, and rate-limiting API endpoints.
         
 - **Level 4: Real-time Collaborative Document (WebSockets + CRDTs)**
-    
     - _Concept:_ A Google Docs clone backend.
     - _Teaches:_ High-frequency WebSocket connections, scaling WebSockets using Redis Pub/Sub (so users connected to different Node instances can chat), and handling concurrent edits (Operational Transformation or CRDTs).
 
