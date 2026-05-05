@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/BACKEND ENGINEERING ROADMAP (V1).md",
+                "file": "Web/JavaScript/Backend Mastery Roadmap Node.js-TypeScript (V2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BACKEND ENGINEERING ROADMAP (V1)"
+              "title": "Backend Mastery Roadmap Node.js-TypeScript (V2)"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "ac2173884f18e274",
   "lastOpenFiles": [
-    "Web/JavaScript/JS Fundamentals to Distributed Node.js System Design.md",
     "Web/JavaScript/BACKEND ENGINEERING ROADMAP (V1).md",
+    "Web/JavaScript/Backend Mastery Roadmap Node.js-TypeScript (V2).md",
+    "Web/JavaScript/JS Fundamentals to Distributed Node.js System Design.md",
     "Demo Sessions/Full Stack Development.md",
     "Web/JavaScript",
     "Web",
@@ -222,7 +223,6 @@
     "Flutter/Control Flow & Dart Compilation Process.md",
     "Flutter/Collections in Dart (List, Set, Map).md",
     "Flutter/Dart Basics – Data Types, Variables & Input-Output.md",
-    "Flutter/Dart Installation.md",
     "Untitled.base",
     "Flutter",
     "Meleebay",
