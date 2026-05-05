@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Demo Sessions/Full Stack Development.md",
+                "file": "Web/JavaScript/JS Fundamentals to Distributed Node.js System Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Full Stack Development"
+              "title": "JS Fundamentals to Distributed Node.js System Design"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5069465637207,
-    "collapsed": true
+    "width": 259.5069465637207
   },
   "right": {
     "id": "d15079b30824853b",
@@ -178,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,6 +194,9 @@
   "active": "ac2173884f18e274",
   "lastOpenFiles": [
     "Demo Sessions/Full Stack Development.md",
+    "Web/JavaScript/JS Fundamentals to Distributed Node.js System Design.md",
+    "Web/JavaScript",
+    "Web",
     "Flutter/Real Engineering Territory.md",
     "Flutter/Core Flutter/Advance Widgets.md",
     "Flutter/Core Flutter/Widgets Guide - Final.md",
@@ -221,7 +223,6 @@
     "Flutter/Dart Basics – Data Types, Variables & Input-Output.md",
     "Flutter/Dart Installation.md",
     "Flutter/Introduction to Programming + Dart & Flutter Overview.md",
-    "Flutter/Testing the Minds.md",
     "Untitled.base",
     "Flutter",
     "Meleebay",
@@ -229,8 +230,6 @@
     "DBMS/Database Fundamentals",
     "DBMS",
     "Demo Sessions",
-    "DSA/Data Structures/Stack",
-    "DSA/Data Structures/Arrays",
     "Untitled.canvas"
   ]
 }
