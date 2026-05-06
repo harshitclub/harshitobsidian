@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Backend Engineering Portfolio (Production-Level Projects).md",
+                "file": "Web/JavaScript/Vanilla JavaScript Projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backend Engineering Portfolio (Production-Level Projects)"
+              "title": "Vanilla JavaScript Projects"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "ac2173884f18e274",
   "lastOpenFiles": [
-    "Web/JavaScript/Backend Mastery Roadmap Node.js-TypeScript (V2).md",
     "Web/JavaScript/Backend Engineering Portfolio (Production-Level Projects).md",
+    "Web/JavaScript/Vanilla JavaScript Projects.md",
+    "Web/JavaScript/Backend Mastery Roadmap Node.js-TypeScript (V2).md",
     "Web/JavaScript/BACKEND ENGINEERING ROADMAP (V1).md",
     "Web/JavaScript/JS Fundamentals to Distributed Node.js System Design.md",
     "Demo Sessions/Full Stack Development.md",
@@ -222,7 +223,6 @@
     "Flutter/Real-World Applications, and Career Scope.md",
     "Flutter/Understanding the Real Opportunity.md",
     "Flutter/Control Flow & Dart Compilation Process.md",
-    "Flutter/Collections in Dart (List, Set, Map).md",
     "Untitled.base",
     "Flutter",
     "Meleebay",
