@@ -409,7 +409,6 @@ Goal:
 - understand internals
 - understand architecture
 - understand behavior
----
 ## 2. Write documentation seriously
 
 Explain:
@@ -418,7 +417,6 @@ Explain:
 - trade-offs
 - limitations
 - performance considerations
----
 ## 3. Add tests
 
 Especially for:
@@ -426,13 +424,11 @@ Especially for:
 - async systems
 - state systems
 - utility libraries
----
 ## 4. Use strict TypeScript configuration
 
 ```
 {  "strict": true}
 ```
----
 ## 5. Focus on understanding, not speed
 
 These projects are designed to make you deeply understand:
