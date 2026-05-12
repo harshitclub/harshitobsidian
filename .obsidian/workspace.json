@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Vanilla JavaScript Projects.md",
+                "file": "College Training/Summer Training Panipat/45 Days Summer Training Program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vanilla JavaScript Projects"
+              "title": "45 Days Summer Training Program"
             }
           }
         ]
@@ -194,6 +194,9 @@
   "active": "ac2173884f18e274",
   "lastOpenFiles": [
     "Web/JavaScript/Backend Engineering Portfolio (Production-Level Projects).md",
+    "College Training/Summer Training Panipat/45 Days Summer Training Program.md",
+    "College Training/Summer Training Panipat",
+    "College Training",
     "Web/JavaScript/Vanilla JavaScript Projects.md",
     "Web/JavaScript/Backend Mastery Roadmap Node.js-TypeScript (V2).md",
     "Web/JavaScript/BACKEND ENGINEERING ROADMAP (V1).md",
@@ -222,14 +225,11 @@
     "Flutter/Data Handling in Applications.md",
     "Flutter/Real-World Applications, and Career Scope.md",
     "Flutter/Understanding the Real Opportunity.md",
-    "Flutter/Control Flow & Dart Compilation Process.md",
     "Untitled.base",
     "Flutter",
     "Meleebay",
     "DBMS/Untitled.canvas",
     "DBMS/Database Fundamentals",
-    "DBMS",
-    "Demo Sessions",
     "Untitled.canvas"
   ]
 }
