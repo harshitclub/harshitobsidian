@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Projects/Smart Expense Tracker with Insights.md",
+                "file": "Python Projects/Student Placement Predictor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Smart Expense Tracker with Insights"
+              "title": "Student Placement Predictor"
             }
           }
         ]
@@ -193,6 +193,8 @@
   },
   "active": "53883e1876311765",
   "lastOpenFiles": [
+    "Python Projects/AI Mood & Emotion Detector from Text.md",
+    "Python Projects/Student Placement Predictor.md",
     "Python Projects/Smart Expense Tracker with Insights.md",
     "College Training/Summer Training Panipat/45 Days Summer Training Program.md",
     "Python Projects",
@@ -224,8 +226,6 @@
     "Flutter/Core Flutter/Flutter Setup Guide.md",
     "Flutter/Thinking Like a Real Developer.md",
     "Flutter/Core Flutter",
-    "Flutter/Data Handling in Applications.md",
-    "Flutter/Real-World Applications, and Career Scope.md",
     "Untitled.base",
     "Flutter",
     "Meleebay",
