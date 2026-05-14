@@ -194,3 +194,17 @@ if True:    print("Hello")
 # Python uses indentation to define blocks.
 
 This is CORE Python syntax.
+
+# VERY IMPORTANT PYTHON SYNTAX DIFFERENCES FROM JS
+
+| JavaScript        | Python      |
+| ----------------- | ----------- |
+| {} blocks         | indentation |
+| ;                 | not needed  |
+| let/const         | none        |
+| true/false        | True/False  |
+| null              | None        |
+| && / \|           | and / or    |
+| function          | def         |
+| ===               | ==          |
+| template literals | f-strings   |
